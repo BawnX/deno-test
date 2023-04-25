@@ -6,5 +6,5 @@ import freshwind from "freshwind/plugin.ts";
 import config, { configURL } from "./twind.config.ts";
 
 await start(manifest, {
-    plugins: [freshwind(config, configURL)],
+  plugins: [freshwind(config, configURL)],
 });

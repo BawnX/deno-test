@@ -1,14 +1,10 @@
-
 export default function Home() {
   return (
-      <body className="!block" style="display: none">
-      <main className="h-screen bg-purple-400 flex items-center justify-center">
-          <h1
-              className="font-bold /* you can even use inline comments */ text-(center 5xl white sm:gray-800 md:pink-700)"
-          >
-              This is Twind!
-          </h1>
-      </main>
-      </body>
+    <main class="p-4">
+      <h1 class="text-4xl font-bold">Mi Blog</h1>
+      <a class="underline hover:text-blue-500" href="/blog/hello-world">
+        Hello World Post
+      </a>
+    </main>
   );
 }

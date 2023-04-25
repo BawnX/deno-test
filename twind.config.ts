@@ -1,7 +1,7 @@
 // twind.config.ts
 import { defineConfig } from "@twind/core";
 import presetTailwind from "@twind/preset-tailwind";
-import presetAutoprefix from '@twind/preset-autoprefix'
+import presetAutoprefix from "@twind/preset-autoprefix";
 // Twind v1 configuration
 // Learn more at https://twind.style/installation
 export default defineConfig({
